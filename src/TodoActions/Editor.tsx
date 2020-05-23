@@ -33,6 +33,7 @@ export const Editor = ({ todo, onSubmit, onCancel, show, isWIP }) => {
         <Input
           disabled={isWIP}
           value={value}
+          //@ts-ignore
           onChange={e => setValue(e.target.value)}
           placeholder="Controlled Input"
         />

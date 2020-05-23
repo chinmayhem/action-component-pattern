@@ -14,8 +14,9 @@
     "styletron-react": "5.2.7"
   },
   "devDependencies": {
+    "@types/styletron-react": "^5.0.2",
     "gh-pages": "^2.2.0",
-    "typescript": "3.3.3"
+    "typescript": "^3.9.3"
   },
   "scripts": {
     "start": "react-scripts start",
