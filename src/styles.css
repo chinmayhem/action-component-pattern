@@ -2,3 +2,20 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.App-single-todo h1 {
+  display: none;
+}
+
+.App-single-todo button[data-id="reset"] {
+  display: none;
+}
+
+.App-single-todo section {
+  display: none;
+}
+
+.App-single-todo section:last-child {
+  display: block;
+}
+
